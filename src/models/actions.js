@@ -1,6 +1,6 @@
 // actions
 let nextTodoId = 0;
-export const addTodo2 = content => ({
+export const addTodo = content => ({
   type: "todos/ADD_TODO",
   payload: {
     id: ++nextTodoId,
@@ -8,12 +8,12 @@ export const addTodo2 = content => ({
   },
 });
 
-export const toggleTodo2 = id => ({
+export const toggleTodo = id => ({
   type: "todos/TOGGLE_TODO",
   payload: { id },
 });
 
-export const setFilter2 = filter => ({
+export const setFilter = filter => ({
   type: "visibilityFilter/SET_FILTER",
   payload: { filter },
 });
