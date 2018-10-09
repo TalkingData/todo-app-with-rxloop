@@ -732,9 +732,9 @@
   version "1.4.0"
   resolved "https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
 
-"@rxloop/core@0.12.0":
-  version "0.12.0"
-  resolved "https://registry.npmjs.org/@rxloop/core/-/core-0.12.0.tgz#e8f6679e186dde1985e005ebc6865bcb8d91737d"
+"@rxloop/core@^0.12.1":
+  version "0.12.1"
+  resolved "https://registry.npmjs.org/@rxloop/core/-/core-0.12.1.tgz#a783232150914afab3162c09a1da446432ffedf7"
   dependencies:
     invariant "^2.2.4"
     is-plain-object "^2.0.4"
