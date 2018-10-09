@@ -1,8 +1,8 @@
 import rxloop from "@rxloop/core";
 
-const app = rxloop();
+const store = rxloop();
 
-app.model({
+store.model({
   name: 'todos',
   state: {
     allIds: [],
@@ -39,7 +39,7 @@ app.model({
   }
 });
 
-app.model({
+store.model({
   name: 'visibilityFilter',
   state: 'all',
   reducers: {
@@ -49,4 +49,4 @@ app.model({
   },
 });
 
-export default app;
+export default store;
